@@ -7,6 +7,8 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    font-family: 'Coda', cursive;
+
 }
 .leftThirdPageContainer{
     display: flex;
@@ -70,6 +72,8 @@
     border: 1px solid gray;
     outline: none;
     padding-left: 10px;
+    font-family: 'Coda', cursive;
+
 }
 .thirdButtonContainer{
     display: flex;
@@ -90,6 +94,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Coda', cursive;
+
 }
 .continueButtonThird{
     width: 60%;
@@ -102,6 +108,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Coda', cursive;
+
 }
 .rightThirdPageContainer{
     display: flex;
@@ -115,7 +123,7 @@
 }
 .rightThirdHead{
     color: #d7870e;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
 }
 .personalCard{
@@ -123,11 +131,12 @@
 }
 .rightThirdTag{
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 17px;
     width: 70%;
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .rightThirdEssential{
     color: white;

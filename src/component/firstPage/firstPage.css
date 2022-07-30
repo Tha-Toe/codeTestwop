@@ -7,6 +7,8 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    font-family: 'Coda', cursive;
+
 }
 .leftFirstPageContainer{
     display: flex;
@@ -24,11 +26,16 @@
 }
 .firstHead{
     color: white;
+    font-family: 'Coda', cursive;
+    font-weight: 400;
+
 }
 .firstInputLabel{
     color: gray;
     font-size: 15px;
     margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'Coda', cursive;
 }
 .firstInputTag{
     color: white;
@@ -40,6 +47,7 @@
     border: 1px solid gray;
     outline: none;
     padding-left: 10px;
+    font-family: 'Coda', cursive;
 }
 .forgotLink{
     color: #d7870e;
@@ -50,6 +58,7 @@
     cursor: pointer;
     font-size: 15px;
     margin-bottom: 10px;
+    font-family: 'Coda', cursive;
 }
 .firstPageLoginButton{
     background-color: #6250F8;
@@ -63,6 +72,8 @@
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 40px;
+    font-family: 'Coda', cursive;
+
 }
 
 .firstPageSignUpButtonContainer{
@@ -95,6 +106,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Coda', cursive;
+
 }
 
 .rightFirstPageContainer{
@@ -108,11 +121,13 @@
     color: white;
     font-size: 18px;
     font-weight: 600;
+    font-family: 'Coda', cursive;
 }
 .rightStatusAmount{
     color: white;
     font-size: 16px;
     font-weight: 500;
+    font-family: 'Coda', cursive;
 }
 
 @media (max-width:700px) {

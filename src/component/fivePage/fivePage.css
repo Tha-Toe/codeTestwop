@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    font-family: 'Coda', cursive;
 }
 .leftFivePageContainer{
     display: flex;
@@ -70,6 +71,7 @@
     border: 1px solid gray;
     outline: none;
     padding-left: 10px;
+    font-family: 'Coda', cursive;
 }
 .warningAddress{
     color: red;
@@ -95,6 +97,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Coda', cursive;
 }
 .continueButtonFive{
     width: 60%;
@@ -107,6 +110,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Coda', cursive;
 }
 .rightFivePageContainer{
     display: flex;
@@ -120,7 +124,7 @@
 }
 .rightFiveHead{
     color: #d7870e;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
 }
 .personalCard{
@@ -133,6 +137,7 @@
     width: 70%;
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .rightFiveEssential{
     color: white;
