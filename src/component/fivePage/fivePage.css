@@ -1,0 +1,220 @@
+.fivePageContainer{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.leftFivePageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+.leftFivePageChild{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.leftFivePageHeadContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.leftFivePageHead{
+    color: #d7870e;
+    font-size: 17;
+    font-weight: 600;
+}
+.leftFiveProgressContainer{
+    width: 250px;
+    background-color: rgb(82, 82, 82);
+    border-radius: 15px;
+    height: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.leftFiveProgressChild{
+    background-color: #d7870e;
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+
+.fiveInputLabel{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.fiveInputTag{
+    color: white;
+    width: 97%;
+    margin-bottom: 15px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 10px;
+}
+.warningAddress{
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fiveButtonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.backButtonFive{
+    width: 30%;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.continueButtonFive{
+    width: 60%;
+    background-color: #6250F8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rightFivePageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 320px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+}
+.rightFiveHead{
+    color: #d7870e;
+    font-weight: 500;
+    font-size: 16px;
+}
+.personalCard{
+    width: 100px;
+}
+.rightFiveTag{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.rightFiveEssential{
+    color: white;
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+}
+
+@media (max-width:700px) {
+    .fivePageContainer{
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 2px solid white;
+    }
+    .leftFivePageContainer{
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .leftFivePageChild{
+        width: 100%;
+    }
+    .rightFivePageContainer{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:400px) {
+    .leftFivePageContainer{
+        width: 90%;
+    }
+    .leftFivePageHeadContainer{
+        width: 100%;
+        justify-content: space-between;
+    }   
+    .leftFivePageHead{
+        font-size: 15px;
+    }
+    .leftFiveProgressContainer{
+        width: 200px;
+        height: 12px;
+        margin-left: 0px;
+    }  
+    .fiveInputLabel,.fiveInputTag{
+        font-size: 12px;
+    } 
+    .warningAddress{
+        font-size: 12px;
+    }
+    .backButtonFive{
+        width: 30%;
+        font-size: 12px;
+        height: 30px;
+    }
+    .continueButtonFive{
+        width: 60%;
+        font-size: 12px;
+        height: 30px;
+    }
+}
+
+@media (max-width:320px) {
+    .leftFivePageHead{
+        font-size: 13px;
+    }
+    .leftFiveProgressContainer{
+        width: 150px;
+        height: 12px;
+        justify-content: space-between;
+    }
+    .rightFivePageContainer{
+        width: 220px;
+        height: 300px;
+    }
+    .rightFiveHead{
+        font-size: 15px;
+    }
+    .rightFiveTag{
+        font-size: 14px;
+        width: 75%;
+    }
+    .rightFiveEssential{
+        font-size: 12px;
+    }
+}

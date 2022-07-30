@@ -1,0 +1,217 @@
+.secondPageContainer{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 2px solid white;
+}
+.leftSecondPageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+.secondHeadContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.haveAnAcc{
+    color: #d7870e;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.leftSecondPageChild{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.leftSecondPageHeadContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.leftSecondPageHead{
+    color: #d7870e;
+    font-size: 17;
+    font-weight: 600;
+}
+.leftSecondProgressContainer{
+    width: 250px;
+    background-color: rgb(82, 82, 82);
+    border-radius: 15px;
+    height: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.leftSecondProgressChild{
+    background-color: #d7870e;
+    width: 20%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+.lspHeader{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.lspSmallHeader{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.secondInputLabel{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.secondInputTag{
+    color: white;
+    width: 97%;
+    margin-bottom: 15px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 10px;
+}
+.secondButtonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.backButtonSecond{
+    width: 30%;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.continueButtonSecond{
+    width: 60%;
+    background-color: #6250F8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rightSecondPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90%;
+}
+
+
+@media (max-width:700px) {
+    .secondPageContainer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid white;
+    }
+    .leftSecondPageContainer{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .leftSecondPageChild{
+        width: 100%;
+    }
+    .rightSecondPageContainer{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:400px) {
+
+    .leftSecondPageContainer{
+        width: 90%;
+     } 
+    .secondHead{
+        font-size: 20px ;
+    }
+    .secondInputLabel,.firstInputTag{
+        font-size: 12px;
+    }
+    .secondHeadContainer{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .haveAnAcc{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .leftSecondPageHead{
+        font-size: 15px;
+    }
+    .leftSecondProgressContainer{
+        width: 200px;
+        height: 12px;
+        justify-content: space-between;
+    }
+    .lspHeader{
+        font-size: 20px;
+    }
+    .lspSmallHeader{
+        font-size: 14px;
+    }
+    .secondInputLabel,.secondInputTag{
+        font-size: 12px;
+    }
+    .backButtonSecond{
+        width: 30%;
+        font-size: 12px;
+        height: 30px;
+    }
+    .continueButtonSecond{
+        width: 60%;
+        font-size: 12px;
+        height: 30px;
+    }
+}
+
+@media (max-width:320px) {
+    .leftSecondPageHead{
+        font-size: 13px;
+    }
+    .leftSecondProgressContainer{
+        width: 150px;
+        height: 12px;
+        justify-content: space-between;
+    }
+}

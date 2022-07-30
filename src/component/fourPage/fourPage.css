@@ -1,0 +1,257 @@
+.fourPageContainer{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.leftFourPageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+.leftFourPageChild{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.leftFourPageHeadContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.leftFourPageHead{
+    color: #d7870e;
+    font-size: 17;
+    font-weight: 600;
+}
+.leftFourProgressContainer{
+    width: 250px;
+    background-color: rgb(82, 82, 82);
+    border-radius: 15px;
+    height: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.leftFourProgressChild{
+    background-color: #d7870e;
+    width: 60%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+.lspHeader{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.lspSmallHeader{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.fourInputLabel{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.fourDateContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.month{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    width: 35%;
+    border-radius: 4px;
+}
+.day{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    border-radius: 4px;
+}
+.dateChild{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    border-radius: 4px;
+}
+.fourButtonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.backButtonFour{
+    width: 30%;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.continueButtonFour{
+    width: 60%;
+    background-color: #6250F8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rightFourPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 320px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+}
+.rightFourHead{
+    color: #d7870e;
+    font-weight: 500;
+    font-size: 16px;
+}
+.personalCard{
+    width: 100px;
+}
+.rightFourTag{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.rightFourEssential{
+    color: white;
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+}
+
+@media (max-width:1024px) {
+    .month{
+        padding: 10px;
+        width: 30%;
+    }
+    .day{
+        width: 25%;
+    }
+}
+@media (max-width:700px) {
+    .fourPageContainer{
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 2px solid white;
+    }
+    .leftFourPageContainer{
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .leftFourPageChild{
+        width: 100%;
+    }
+    .rightFourPageContainer{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:400px) {
+    .leftFourPageContainer{
+        width: 90%;
+    }
+    .leftFourPageHeadContainer{
+        width: 100%;
+        justify-content: space-between;
+    }   
+    .leftFourPageHead{
+        font-size: 15px;
+    }
+    .leftFourProgressContainer{
+        width: 200px;
+        height: 12px;
+        margin-left: 0px;
+    }   
+    .fourInputLabel{
+        font-size: 12px;
+    }
+    .month{
+        padding: 5px;
+        width: 30%;
+    }
+    .day{
+        padding: 5px;
+        width: 25%;
+    }
+    .backButtonFour{
+        width: 30%;
+        font-size: 12px;
+        height: 30px;
+    }
+    .continueButtonFour{
+        width: 60%;
+        font-size: 12px;
+        height: 30px;
+    }
+}
+@media (max-width:320px) {
+    .leftFourPageHead{
+        font-size: 13px;
+    }
+    .leftFourProgressContainer{
+        width: 150px;
+        height: 12px;
+        justify-content: space-between;
+    }
+    .rightFourPageContainer{
+        width: 220px;
+        height: 300px;
+    }
+    .rightFourHead{
+        font-size: 15px;
+    }
+
+    .rightFourTag{
+        font-size: 14px;
+        width: 75%;
+    }
+    .rightFourEssential{
+        font-size: 12px;
+    }
+}

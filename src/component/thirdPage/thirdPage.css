@@ -1,0 +1,214 @@
+.thirdPageContainer{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.leftThirdPageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+.leftThirdPageChild{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.leftThirdPageHeadContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.leftThirdPageHead{
+    color: #d7870e;
+    font-size: 17;
+    font-weight: 600;
+}
+.leftThirdProgressContainer{
+    width: 250px;
+    background-color: rgb(82, 82, 82);
+    border-radius: 15px;
+    height: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.leftThirdProgressChild{
+    background-color: #d7870e;
+    width: 40%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+.thirdInputLabel{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.thirdInputTag{
+    color: white;
+    width: 97%;
+    margin-bottom: 15px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 10px;
+}
+.thirdButtonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.backButtonThird{
+    width: 30%;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.continueButtonThird{
+    width: 60%;
+    background-color: #6250F8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rightThirdPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 320px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+}
+.rightThirdHead{
+    color: #d7870e;
+    font-weight: 500;
+    font-size: 16px;
+}
+.personalCard{
+    width: 100px;
+}
+.rightThirdTag{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.rightThirdEssential{
+    color: white;
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+}
+
+@media (max-width:700px) {
+    .thirdPageContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid white;
+    }
+    .leftThirdPageContainer{
+        width: 80%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .leftThirdPageChild{
+        width: 100%;
+    }
+    .rightThirdPageContainer{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:400px) {
+    .leftThirdPageContainer{
+        width: 90%;
+    }
+    .leftThirdPageHeadContainer{
+        width: 100%;
+        justify-content: space-between;
+    }   
+    .leftThirdPageHead{
+        font-size: 15px;
+    }
+    .leftThirdProgressContainer{
+        width: 200px;
+        height: 12px;
+        margin-left: 0px;
+    }
+    .thirdInputLabel,.thirdInputTag{
+        font-size: 12px;
+    }
+    .backButtonThird{
+        width: 30%;
+        font-size: 12px;
+        height: 30px;
+    }
+    .continueButtonThird{
+        width: 60%;
+        font-size: 12px;
+        height: 30px;
+    }
+}
+@media (max-width:320px) {
+    .leftThirdPageHead{
+        font-size: 13px;
+    }
+    .leftThirdProgressContainer{
+        width: 150px;
+        height: 12px;
+        justify-content: space-between;
+    }
+    .rightThirdPageContainer{
+        width: 220px;
+        height: 300px;
+    }
+    .rightThirdHead{
+        font-size: 15px;
+    }
+
+    .rightThirdTag{
+        font-size: 14px;
+        width: 75%;
+    }
+    .rightThirdEssential{
+        font-size: 12px;
+    }
+    
+}
